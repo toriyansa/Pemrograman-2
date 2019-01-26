@@ -18,9 +18,9 @@ public class Latihan1{
     }
     
     System.out.println("Masukan tiga nilai ujian:");
-    double nilai1 = input.nextInt();
-    double nilai2 = input.nextInt();
-    double nilai3 = input.nextInt();
+    double nilai1 = input.nextDouble();
+    double nilai2 = input.nextDouble();
+    double nilai3 = input.nextDouble();
     
     double hasil = (nilai1+nilai2+nilai3)/3;
     if(hasil < 60){
